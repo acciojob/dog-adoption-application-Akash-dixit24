@@ -9,7 +9,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+      background-color: #f3f7f9;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -18,10 +18,10 @@
 
     form {
       background-color: #ffffff;
-      padding: 25px;
+      padding: 25px 30px;
       border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      width: 350px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 360px;
     }
 
     h2 {
@@ -32,8 +32,8 @@
 
     label {
       display: block;
-      font-weight: bold;
       margin-top: 10px;
+      font-weight: bold;
     }
 
     input[type="text"],
@@ -55,19 +55,19 @@
     }
 
     input[type="submit"] {
-      background-color: #4CAF50;
+      background-color: #007bff;
       color: white;
       border: none;
       padding: 10px;
       width: 100%;
-      margin-top: 15px;
       border-radius: 5px;
       cursor: pointer;
       font-size: 16px;
+      margin-top: 15px;
     }
 
     input[type="submit"]:hover {
-      background-color: #45a049;
+      background-color: #0056b3;
     }
   </style>
 </head>
@@ -94,7 +94,7 @@
       Have you ever lived with a Dog before?
     </label>
 
-    <!-- Multi-select for preferred breeds -->
+    <!-- Multi-select -->
     <label for="multiSelect">Please select your preferred breeds:</label>
     <select id="multiSelect" multiple>
       <option value="Labrador">Labrador</option>
@@ -102,9 +102,10 @@
       <option value="Golden Retriever">Golden Retriever</option>
     </select>
 
-    <!-- Submit Button -->
+    <!-- Submit -->
     <input type="submit" value="Submit">
   </form>
 </body>
 
 </html>
+
